@@ -1,0 +1,103 @@
+.commentsContainer {
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  .commentsTitle {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #111827;
+  }
+  
+  .noComments {
+    font-style: italic;
+    color: #6b7280;
+    padding: 16px 0;
+  }
+  
+  .commentsList {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .commentItem {
+    padding: 16px;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    border-left: 4px solid #e5e7eb;
+  }
+  
+  .commentHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .commentAuthor {
+    font-weight: 600;
+    color: #374151;
+  }
+  
+  .commentDate {
+    font-size: 0.75rem;
+    color: #6b7280;
+  }
+  
+  .statusChange {
+    margin-bottom: 8px;
+    padding: 6px 10px;
+    background-color: #f3f4f6;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    color: #4b5563;
+  }
+  
+  .oldStatus, .newStatus {
+    font-weight: 600;
+  }
+  
+  .oldStatus {
+    color: #9ca3af;
+  }
+  
+  .newStatus {
+    color: #3b82f6;
+  }
+  
+  .commentText {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #1f2937;
+    white-space: pre-wrap;
+  }
+  
+  .commentForm {
+    margin-top: 24px;
+  }
+  
+  .formTitle {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #374151;
+  }
+  
+  .commentInput {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    resize: vertical;
+  }
+  
+  .commentInput:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+  }
